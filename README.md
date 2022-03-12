@@ -1,6 +1,6 @@
 # README PT-BR
 
-![](./tokyo-program-bar-for-design-with-line.png)
+<img src='./window.png' width='200' height='200' />
 
 # Meu portfolio
 
