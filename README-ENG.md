@@ -1,6 +1,6 @@
 # README ENG
 
-<img src='./window.png' width='200' height='200' />
+<img src='./src/assets/img/window.png' width='200' height='200' />
 
 # My portfolio
 
