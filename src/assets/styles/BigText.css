@@ -6,7 +6,7 @@ p {
   top: 10rem;
 }
 
-p h1{
+p a{
   position: absolute;
   left: 0%;
   right: 0%;
@@ -22,7 +22,7 @@ p h1{
   color: #3D3D3D;
 }
 
-p h2{
+p b{
   position: absolute;
   left: 0%;
   right: 0%;

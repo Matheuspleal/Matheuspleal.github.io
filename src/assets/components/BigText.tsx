@@ -3,12 +3,12 @@ import '../styles/BigText.css'
 export function BigText (){
   return (
     <p>
-      <h1>
+      <a>
         Olá! Meu nome é
-      </h1>
-      <h2>
+      </a>
+      <b>
         Matheus Pimentel
-      </h2>
+      </b>
     </p>
   )
 }
