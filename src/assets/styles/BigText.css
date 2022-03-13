@@ -1,0 +1,39 @@
+p {
+  position: absolute;
+  width: 40rem;
+  height: 8rem;
+  left: 6rem;
+  top: 10rem;
+}
+
+p h1{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 48.45%;
+
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 5.375rem;
+
+  color: #3D3D3D;
+}
+
+p h2{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 48.45%;
+  bottom: 0%;
+
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 3.5rem;
+  line-height: 5.375rem;
+
+  color: #3D3D3D;
+}

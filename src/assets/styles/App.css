@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;900&display=swap');
+
+div{
+  display: flex;
+}
+
+#logo{
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  left: 6rem;
+  top: 2rem;
+}

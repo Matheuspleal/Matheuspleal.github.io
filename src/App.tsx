@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+import './assets/styles/App.css';
+import Logo from './assets/img/logo.svg';
+import { BigText } from './assets/components/BigText';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export function App() {
   return (
-    <div>Ola mundo!</div>
+    //Logo MP
+    <div>
+      {/* Colocar dentro de um componente */}
+      <img src={Logo} id='logo'/>
+      <BigText />
+    </div>
   )
 }
-
-export default App
