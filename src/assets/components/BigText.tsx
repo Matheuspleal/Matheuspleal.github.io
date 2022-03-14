@@ -2,13 +2,13 @@ import '../styles/BigText.css'
 
 export function BigText (){
   return (
-    <p>
-      <a>
+    <section className='presentation'>
+      <h1>
         Olá! Meu nome é
-      </a>
-      <b>
+      </h1>
+      <h2>
         Matheus Pimentel
-      </b>
-    </p>
+      </h2>
+    </section>
   )
 }

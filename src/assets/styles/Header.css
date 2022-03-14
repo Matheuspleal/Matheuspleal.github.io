@@ -1,0 +1,16 @@
+header{
+    padding: 1rem 0;
+    color: #1F1F1F;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    border: 2px solid crimson;
+}
+
+.logo{
+    position: relative;
+    margin-left: 4rem;
+    width: 4rem;
+}
