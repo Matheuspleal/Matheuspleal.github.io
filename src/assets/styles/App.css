@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   width: 95%;
   margin: 0 auto;
+  padding: 0;
   border: 2px solid crimson;
 }
 
@@ -14,6 +15,13 @@
 
 .bigImg{
   position: relative;
-  width: 45%;
+  width: 40vw;
+  border: 2px solid blue;
+}
+
+.icon{
+  margin-left: 5rem;
+  position: relative;
+  width: 3.8%;
   border: 2px solid blue;
 }
