@@ -1,0 +1,18 @@
+.iconbar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    padding: 0.9vw;
+    width: 42%;
+    border: 2px solid blue;
+}
+
+.iconbar a{
+    margin: 3vw;
+    width: 10%;
+}
+
+.icon{
+    width: 100%;
+    border: 2px solid purple;
+}
