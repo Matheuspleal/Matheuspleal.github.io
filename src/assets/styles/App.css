@@ -4,17 +4,16 @@
   width: 95%;
   margin: 0 auto;
   padding: 0;
-  border: 2px solid crimson;
+  /* border: 2px solid crimson; */
 }
 
-.bigText{
-  position: relative;
-  width: 50%;
-  border: 2px solid blue;
+.socials{
+  width: 50vw;
+  /* border: 2px solid blue; */
 }
 
 .bigImg{
   position: relative;
   width: 40vw;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
 }

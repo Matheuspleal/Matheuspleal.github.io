@@ -6,11 +6,10 @@ header{
 .container{
     width: 95%;
     margin: 0 auto;
-    border: 2px solid crimson;
 }
 
 .logo{
     position: relative;
-    margin-left: 4rem;
-    width: 4rem;
+    margin-left: 3vw;
+    width: 4vw;
 }

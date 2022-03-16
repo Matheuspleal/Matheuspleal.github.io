@@ -6,9 +6,11 @@ import './assets/styles/App.css';
 export function App() {
     return(
         <section className='content'>
-            <BigText />
-            <img src={ Dev } className='bigImg'/>
-            <Iconbar /> 
+            <div className='socials'>
+                <BigText />
+                <Iconbar />
+            </div>
+            <img src={ Dev } className='bigImg'/> 
         </section>
     )
 }

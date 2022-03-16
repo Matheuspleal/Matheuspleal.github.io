@@ -1,10 +1,12 @@
 .iconbar{
     display: flex;
     flex-direction: row;
-    margin-left: 5rem;
-    padding: 0.9vw;
-    width: 42%;
-    border: 2px solid blue;
+    margin-left: 1.5vw;
+    margin-top: 4vw;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+    width: 55%;
+    /* border: 2px solid blue; */
 }
 
 .iconbar a{
@@ -14,5 +16,5 @@
 
 .icon{
     width: 100%;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
 }
