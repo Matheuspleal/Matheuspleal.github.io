@@ -8,31 +8,34 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <header>
-            <!-- My logo -->
-            <img
-                src="assets/logo.svg"
-                alt="My personal logo in the shape of an M"
-            />
-            <!-- Dark / Light mode Button -->
-            <div class="toggle">
-                <input type="checkbox" name="theme" id="switch" /><label
-                    for="switch"
-                ></label>
-            </div>
-            <!-- Menu bar -->
-            <div class="container">
-                <div class="menu">
-                    Menu<img
-                        src="assets/bars-solid.svg"
-                        alt="Menu bars icon"
-                        class="menu-icon"
+        <header class="content navbar--fixed">
+            <div class="test">
+                <!-- My logo -->
+                <div class="logo">
+                    <img
+                        src="assets/logo.svg"
+                        alt="My personal logo in the shape of an M"
                     />
                 </div>
+                <!-- Dark / Light mode Button -->
+                <div class="toggle">
+                    <input type="checkbox" name="theme" id="switch" /><label
+                        for="switch"
+                    ></label>
+                </div>
+            </div>
+            <!-- Menu bar -->
+            <div class="menu">
+                <p>Menu</p>
+                <img
+                    src="assets/bars-solid.svg"
+                    alt="Menu bars icon"
+                    class="menu-icon"
+                />
             </div>
         </header>
 
-        <section class="hello-world">
+        <section class="content hello-world">
             <div class="container">
                 <img src="assets/" />
                 <div class="introduction-text">
@@ -45,9 +48,9 @@
             </div>
         </section>
 
-        <div class="scroll">Scroll<a href="" class="line"></a></div>
+        <div class="container scroll">Scroll<a href="" class="line"></a></div>
 
-        <section class="about-me">
+        <section class="content about-me">
             <div class="container">
                 <div class="about-me--text">
                     <h1>About me</h1>
@@ -66,7 +69,7 @@
             </div>
         </section>
 
-        <section class="interests">
+        <section class="content interests">
             <div class="container">
                 <div class="interests-text">
                     <h1>Interests</h1>
@@ -83,7 +86,7 @@
             </div>
         </section>
 
-        <section class="education">
+        <section class="content education">
             <div class="container">
                 <div class="education--text">
                     <h1>education</h1>
@@ -101,10 +104,10 @@
             </div>
         </section>
 
-        <section class="socials">
+        <section class="content socials">
             <div class="socials--icons"></div>
-            <h1></h1>
-            <button></button>
+            <h1 class="socials--text">Let's work together</h1>
+            <button class="socials--btn">Get in touch</button>
         </section>
 
         <footer class="footnote">

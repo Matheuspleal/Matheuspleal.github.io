@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&family=Roboto:wght@300;400;700;900&display=swap');
 
+/* Variables */
 :root {
     --clr-neutral-100: #fff;
     --clr-neutral-200: #f5f5f5;
@@ -23,16 +24,52 @@
 }
 
 body {
+    background-color: var(--clr-neutral-200);
     font-family: var(--ff-primary);
     font-weight: 400;
     font-size: 1.3125rem;
     line-height: 1.6;
 }
 
+header,
 body,
 h1,
 h2,
 h3,
 p {
     margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    line-height: 1;
+}
+
+header {
+    width: min(90%, 79.375rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.logo {
+    width: 35px;
+}
+
+.test {
+    display: flex;
+}
+
+section {
+    padding: 3rem 0;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 66.625rem);
 }
