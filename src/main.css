@@ -92,6 +92,13 @@ header {
     background-color: var(--clr-neutral-300);
 }
 
+.ball {
+    background-color: var(--clr-primary-500);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
 section {
     padding: 3rem 0;
 }
