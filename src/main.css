@@ -60,7 +60,10 @@ header {
 }
 
 .logo--mode {
+    width: min(20%, 8.063rem);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -79,6 +82,14 @@ header {
 
 .menu--icon {
     width: 30px;
+}
+
+.dl-mode {
+    width: 65px;
+    height: 28px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--clr-neutral-300);
 }
 
 section {
