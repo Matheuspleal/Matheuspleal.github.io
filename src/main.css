@@ -17,9 +17,9 @@
     --ff-accent: 'Fira Sans', sans-serif;
 }
 
-*,
-*::before,
-*::after {
+*:not(header),
+*:not(header)::before,
+*:not(header)::after {
     box-sizing: border-box;
 }
 
@@ -49,20 +49,36 @@ h3 {
 }
 
 header {
+    position: fixed;
+    margin-inline: auto;
     width: min(90%, 79.375rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3rem;
+    padding: 3rem 3rem;
+}
+
+.logo--mode {
+    display: flex;
 }
 
 .logo {
     width: 35px;
 }
 
-.test {
+.menu {
+    width: min(10%, 6.563rem);
     display: flex;
+    justify-content: space-between;
+}
+
+.menu > p {
+    font-weight: 600;
+}
+
+.menu--icon {
+    width: 30px;
 }
 
 section {
