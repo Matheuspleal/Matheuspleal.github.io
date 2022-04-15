@@ -51,7 +51,7 @@ h3 {
 header {
     position: fixed;
     margin-inline: auto;
-    width: min(90%, 79.375rem);
+    width: min(95%, 79.375rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
