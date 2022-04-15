@@ -67,6 +67,8 @@ header {
 }
 
 .logo {
+    display: flex;
+    align-content: center;
     width: 35px;
 }
 
@@ -84,19 +86,18 @@ header {
     width: 30px;
 }
 
-.clr-mode--btn {
-    width: 65px;
-    height: 28px;
-    border-radius: 20px;
-    border: none;
+.darkmode {
+    margin-block: auto;
     background-color: var(--clr-neutral-300);
+    border: 2px solid;
+    border-radius: 20px;
+    width: 60px;
+    height: 22px;
+    transition: 0.5s;
 }
 
-.ball {
-    background-color: var(--clr-primary-500);
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
+.darkmode:hover {
+    background-color: var(--clr-primary-200);
 }
 
 section {
