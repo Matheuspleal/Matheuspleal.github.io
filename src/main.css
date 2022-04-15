@@ -68,12 +68,11 @@ header {
 
 .logo {
     display: flex;
-    align-content: center;
     width: 35px;
 }
 
 .menu {
-    width: min(10%, 6.563rem);
+    width: min(20%, 6.563rem);
     display: flex;
     justify-content: space-between;
 }
@@ -87,17 +86,23 @@ header {
 }
 
 .darkmode {
+    display: flex;
+    align-items: center;
     margin-block: auto;
     background-color: var(--clr-neutral-300);
-    border: 2px solid;
     border-radius: 20px;
-    width: 60px;
-    height: 22px;
+    width: 65px;
+    height: 28px;
     transition: 0.5s;
 }
 
-.darkmode:hover {
-    background-color: var(--clr-primary-200);
+.ball {
+    position: relative;
+    left: 2px;
+    background-color: var(--clr-primary-500);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
 }
 
 section {
