@@ -49,8 +49,9 @@ h3 {
 }
 
 header {
-    position: fixed;
+    z-index: 0;
     margin-inline: auto;
+    margin-block: auto;
     width: 95%;
     padding: 3rem 3rem;
 }
@@ -72,15 +73,17 @@ header {
 }
 
 .logo {
+    cursor: pointer;
     display: flex;
-    width: 35px;
+    width: 45px;
 }
 
 .color-mode {
+    cursor: pointer;
     display: flex;
     background-color: var(--clr-neutral-300);
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -100,6 +103,7 @@ header {
 }
 
 .menu {
+    cursor: pointer;
     width: min(20%, 6.563rem);
     display: flex;
     justify-content: space-between;
@@ -124,4 +128,8 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.hello-world {
+    margin-top: 1rem;
 }
