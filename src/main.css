@@ -51,12 +51,17 @@ h3 {
 header {
     position: fixed;
     margin-inline: auto;
+    width: 95%;
+    padding: 3rem 3rem;
+}
+
+.container--header {
+    margin-inline: auto;
     width: min(95%, 79.375rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 3rem;
 }
 
 .logo--mode {
@@ -69,6 +74,29 @@ header {
 .logo {
     display: flex;
     width: 35px;
+}
+
+.color-mode {
+    display: flex;
+    background-color: var(--clr-neutral-300);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.5s;
+}
+
+.color-mode > svg {
+    transition-duration: 0.5s;
+}
+
+.color-mode:hover {
+    background-color: var(--clr-primary-500);
+}
+
+.color-mode:hover > svg {
+    stroke: var(--clr-neutral-100);
 }
 
 .menu {
@@ -85,26 +113,6 @@ header {
     width: 30px;
 }
 
-.darkmode {
-    display: flex;
-    align-items: center;
-    margin-block: auto;
-    background-color: var(--clr-neutral-300);
-    border-radius: 20px;
-    width: 65px;
-    height: 28px;
-    transition: 0.5s;
-}
-
-.ball {
-    position: relative;
-    left: 2px;
-    background-color: var(--clr-primary-500);
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-}
-
 section {
     padding: 3rem 0;
 }
@@ -112,4 +120,8 @@ section {
 .container {
     margin-inline: auto;
     width: min(90%, 66.625rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }

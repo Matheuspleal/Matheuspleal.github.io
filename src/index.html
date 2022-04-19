@@ -8,27 +8,46 @@
         <script src="main.js"></script>
     </head>
     <body>
-        <header class="content navbar--fixed">
-            <div class="logo--mode">
-                <!-- My logo -->
-                <div class="logo">
-                    <img
-                        src="assets/logo.svg"
-                        alt="My personal logo in the shape of an M"
-                    />
+        <header>
+            <div class="container--header">
+                <div class="logo--mode">
+                    <!-- My logo -->
+                    <div class="logo">
+                        <img
+                            src="assets/logo.svg"
+                            alt="My personal logo in the shape of an M"
+                        />
+                    </div>
+                    <!-- Dark / Light mode Button -->
+                    <div class="color-mode">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-moon"
+                        >
+                            <path
+                                d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                            ></path>
+                        </svg>
+                    </div>
                 </div>
-                <!-- Dark / Light mode Button -->
-                <label class="darkmode"><div class="ball"></div></label>
-            </div>
-            <!-- Menu bar -->
-            <div class="menu">
-                <p>Menu</p>
-                <div class="menu--icon">
-                    <img
-                        src="assets/bars-solid.svg"
-                        alt="Menu bars icon"
-                        class="menu-icon"
-                    />
+                <!-- Menu bar -->
+                <div class="menu">
+                    <p>Menu</p>
+                    <div class="menu--icon">
+                        <img
+                            src="assets/bars-solid.svg"
+                            alt="Menu bars icon"
+                            class="menu-icon"
+                        />
+                    </div>
                 </div>
             </div>
         </header>
@@ -69,6 +88,10 @@
 
         <section class="content interests">
             <div class="container">
+                <img
+                    src="assets/mystery-box.png"
+                    alt="Pixel art of a box with a question mark"
+                />
                 <div class="interests-text">
                     <h1>Interests</h1>
                     <ul class="interests-list">
@@ -80,10 +103,6 @@
                         <li>Mobile Development</li>
                     </ul>
                 </div>
-                <img
-                    src="assets/mystery-box.png"
-                    alt="Pixel art of a box with a question mark"
-                />
             </div>
         </section>
 
