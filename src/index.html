@@ -5,7 +5,6 @@
         <meta name="viewport" "width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="main.css" />
         <title>Matheus Pimentel Leal | Portfolio</title>
-        <script src="main.js"></script>
     </head>
     <body>
         <header>
@@ -97,9 +96,9 @@
         <section class="interests">
             <div class="container">
                 <img src="assets/star.png" alt="A star" />
-                <div class="interests-text">
+                <div class="interests--text">
                     <h1>Interests</h1>
-                    <ul class="interests-list">
+                    <ul class="list">
                         <li>Game Design</li>
                         <li>Game Development</li>
                         <li>Web Design</li>
@@ -116,13 +115,18 @@
                 <div class="education--text">
                     <h1>Education</h1>
                     <div class="education--item">
-                        <img src="assets/" alt="graduation hat" />
-                        <p class="education--item course-name">
-                            Software Engineering Undergraduate
-                        </p>
-                        <p class="education--item institution">
-                            Universidade de Brasília - UnB
-                        </p>
+                        <img
+                            src="assets/graduation-hat.svg"
+                            alt="graduation hat"
+                        />
+                        <div class="text--container">
+                            <p class="course-name">
+                                Software Engineering Undergraduate
+                            </p>
+                            <p class="institution">
+                                Universidade de Brasília - UnB
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <img src="assets/1up.png" alt="Level up badge in pixel art" />
@@ -130,13 +134,14 @@
         </section>
 
         <section class="socials">
-            <div class="socials--icons"></div>
             <h1 class="socials--text">Let's work together</h1>
             <button class="socials--btn">Get in touch</button>
         </section>
 
         <footer class="footnote">
-            made with 💙 from Brazil by: <a>Matheus Pimentel Leal</a>
+            Made with 💙 from Brazil by:
+            <a href="https://github.com/Matheuspleal">Matheus Pimentel Leal</a>
         </footer>
+        <script src="main.js"></script>
     </body>
 </html>

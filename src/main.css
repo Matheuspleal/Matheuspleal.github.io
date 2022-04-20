@@ -62,7 +62,7 @@ header {
 
 .container--header {
     margin-inline: auto;
-    width: min(95%, 79.375rem);
+    width: min(95%, 81.25rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -155,7 +155,7 @@ section {
 }
 
 .scroll--text {
-    font-weight: 400;
+    font-weight: 300;
     width: 100%;
     text-align: center;
 }
@@ -167,4 +167,73 @@ section {
 
 .about-me--text {
     width: min(50%, 31.25rem);
+}
+
+.interests--text {
+    text-align: right;
+    width: min(50%, 31.25rem);
+}
+
+.interests--text > ul {
+    list-style: none;
+}
+
+.education--item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.education--item > .text--container > .course-name {
+    font-size: 1rem;
+}
+
+.education--item > .text--container > .institution {
+    font-size: 0.875rem;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials--text {
+    color: var(--clr-primary-500);
+    -webkit-text-stroke: 3px var(--clr-neutral-900);
+    padding-bottom: 2rem;
+}
+
+.socials--btn {
+    cursor: pointer;
+    width: 23.75rem;
+    height: 5rem;
+    border: 3px solid var(--clr-neutral-900);
+    border-radius: 20rem;
+    font-family: var(--ff-primary);
+    font-weight: 900;
+    font-size: 3rem;
+    transition-duration: 0.3s;
+}
+
+.socials--btn:hover {
+    color: var(--clr-neutral-100);
+    background-color: var(--clr-primary-500);
+}
+
+.socials--btn:active {
+    background-color: var(--clr-primary-200);
+}
+
+.footnote {
+    font-weight: 300;
+    font-size: 0.875rem;
+    text-align: center;
+}
+
+.footnote > a {
+    text-decoration: underline;
+    color: var(--clr-neutral-900);
+}
+
+.footnote > a:visited {
+    color: var(--clr-neutral-900);
 }
