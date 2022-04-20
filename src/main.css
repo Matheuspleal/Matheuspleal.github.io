@@ -248,9 +248,21 @@ section {
 }
 
 @media (max-width: 1600px) {
+    .hello-world {
+        padding: 0.5rem 0;
+    }
     .container {
         width: min(90%, 58.875rem);
         padding-bottom: 1rem;
+    }
+    .my-picture {
+        width: min(50%, 24.625rem);
+    }
+    .introduction-text {
+        width: min(50%, 28.875rem);
+    }
+    h1 {
+        font-size: 3.5rem;
     }
 }
 
