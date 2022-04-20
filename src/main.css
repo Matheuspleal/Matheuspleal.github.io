@@ -139,11 +139,11 @@ section {
 }
 
 .my-picture {
-    width: min(50%, 28.125rem);
+    width: min(50%, 30.125rem);
 }
 
 .my-picture > img {
-    width: min(100%, 28.125rem);
+    width: min(100%, 30.125rem);
 }
 
 .introduction-text {
