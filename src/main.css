@@ -60,7 +60,7 @@ header {
     margin-inline: auto;
     margin-block: auto;
     width: 95%;
-    padding-block: 3rem;
+    padding-block: 2rem;
 }
 
 .container--header {
@@ -154,6 +154,11 @@ section {
     font-weight: 300;
 }
 
+.introduction-text > p a {
+    color: var(--clr-primary-500);
+    font-weight: 900;
+}
+
 .scroll {
     justify-content: center;
 }
@@ -240,4 +245,29 @@ section {
 
 .footnote > a:visited {
     color: var(--clr-neutral-900);
+}
+
+@media (max-width: 1600px) {
+    .container {
+        width: min(90%, 58.875rem);
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        width: min(90%, 52.625rem);
+    }
+    .my-picture {
+        width: min(50%, 22.625rem);
+    }
+    .introduction-text {
+        width: min(50%, 25rem);
+    }
+    .introduction-text > p {
+        font-size: 1.1rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
 }
