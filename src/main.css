@@ -54,6 +54,9 @@ h1 {
 
 header {
     z-index: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
     margin-inline: auto;
     margin-block: auto;
     width: 95%;
@@ -62,7 +65,7 @@ header {
 
 .container--header {
     margin-inline: auto;
-    width: min(95%, 81.25rem);
+    width: min(95%, 83.25rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -132,10 +135,6 @@ section {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.hello-world {
-    margin-top: 1rem;
 }
 
 .my-picture {
