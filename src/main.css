@@ -65,7 +65,7 @@ header {
 
 .container--header {
     margin-inline: auto;
-    width: min(95%, 83.25rem);
+    width: min(95%, 85.25rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -130,6 +130,7 @@ section {
 
 .container {
     margin-inline: auto;
+    padding-bottom: 5rem;
     width: min(90%, 66.625rem);
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +140,10 @@ section {
 
 .my-picture {
     width: min(50%, 28.125rem);
+}
+
+.my-picture > img {
+    width: min(90%, 28.125rem);
 }
 
 .introduction-text {
