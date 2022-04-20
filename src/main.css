@@ -48,6 +48,10 @@ h3 {
     line-height: 1;
 }
 
+h1 {
+    font-size: 4.5rem;
+}
+
 header {
     z-index: 0;
     margin-inline: auto;
@@ -132,4 +136,35 @@ section {
 
 .hello-world {
     margin-top: 1rem;
+}
+
+.my-picture {
+    width: min(50%, 28.125rem);
+}
+
+.introduction-text {
+    width: min(50%, 31.75rem);
+}
+
+.introduction-text > p {
+    font-weight: 300;
+}
+
+.scroll {
+    justify-content: center;
+}
+
+.scroll--text {
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.scroll--line {
+    border: 1px solid var(--clr-neutral-900);
+    height: 18.75rem;
+}
+
+.about-me--text {
+    width: min(50%, 31.25rem);
 }
