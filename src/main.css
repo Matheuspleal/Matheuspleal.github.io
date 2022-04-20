@@ -4,7 +4,8 @@
 :root {
     --clr-neutral-100: #fff;
     --clr-neutral-200: #f5f5f5;
-    --clr-neutral-300: #aaaaaa;
+    --clr-neutral-300: #d0d0d0;
+    --clr-neutral-400: #aaaaaa;
     --clr-neutral-700: #1f1f1f;
     --clr-neutral-800: #0c0c0c;
     --clr-neutral-900: #000;
@@ -128,14 +129,22 @@ section {
     padding: 3rem 0;
 }
 
-.container {
+.container,
+.container--intro {
     margin-inline: auto;
-    padding-bottom: 5rem;
     width: min(90%, 66.625rem);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.container--intro {
+    padding-bottom: 2rem;
+}
+
+.container {
+    padding-block: 12rem;
 }
 
 .my-picture {
@@ -160,6 +169,7 @@ section {
 }
 
 .scroll {
+    padding: 0;
     justify-content: center;
 }
 
@@ -171,7 +181,7 @@ section {
 
 .scroll--line {
     border: 1px solid var(--clr-neutral-900);
-    height: 18.75rem;
+    height: 22.625rem;
 }
 
 .about-me--text {
@@ -251,8 +261,11 @@ section {
     .hello-world {
         padding: 0.5rem 0;
     }
-    .container {
+    .container,
+    .container--intro {
         width: min(90%, 58.875rem);
+    }
+    .container--intro {
         padding-bottom: 1rem;
     }
     .my-picture {
