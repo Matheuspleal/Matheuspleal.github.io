@@ -60,7 +60,7 @@ header {
     margin-inline: auto;
     margin-block: auto;
     width: 95%;
-    padding: 3rem 3rem;
+    padding-block: 3rem;
 }
 
 .container--header {
